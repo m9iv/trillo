@@ -8,4 +8,6 @@ You can visit the [Demo page](https://m9iv.github.io/kzaviryukha.github.io/demo/
 
 ### Important commands
 
-`npm run compile:sass`
+`npm install`
+
+`npm start`
