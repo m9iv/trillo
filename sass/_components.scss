@@ -196,3 +196,99 @@
 
   padding: 2.5rem;
 }
+
+///////////////////////////////////////////
+// GALLERY
+.gallery {
+  display: flex;
+
+  &__photo {
+    display: block;
+    width: 100%;
+  }
+}
+
+///////////////////////////////////////////
+// HOTEL OVERVIEW
+.overview {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid var(--color-grey-light-2);
+
+  &__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+  }
+
+  &__stars {
+    display: flex;
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    fill: var(--color-primary);
+
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  &__location {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2rem;
+  }
+
+  &__icon-location {
+    margin-right: 0.5rem;
+  }
+
+  &__rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+
+    color: #fff;
+
+    padding: 0 2.25rem;
+    background-color: var(--color-primary);
+    margin-left: 3rem;
+  }
+
+  &__rating-average {
+    font-size: 2.25rem;
+    margin-bottom: -3px;
+  }
+
+  &__rating-count {
+    text-transform: uppercase;
+  }
+}
+
+///////////////////////////////////////////
+// BUTTON INLINE
+.btn-inline {
+  display: inline-block;
+
+  font-size: inherit;
+  color: var(--color-primary);
+
+  padding-bottom: 2px;
+  border: none;
+  border-bottom: 1px solid currentColor;
+  background-color: transparent;
+
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-grey-dark-1);
+  }
+}
